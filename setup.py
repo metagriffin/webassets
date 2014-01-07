@@ -33,18 +33,17 @@ fp.close()
 
 
 setup(
-    name='webassets',
-    version=".".join(map(str, version)),
+    name='webassets2',
+    version='0.10.dev-fork-pr-283.0',
     description='Media asset management for Python, with glue code for '+\
         'various web frameworks',
-    long_description='Merges, minifies and compresses Javascript and '
-        'CSS files, supporting a variety of different filters, including '
-        'YUI, jsmin, jspacker or CSS tidy. Also supports URL rewriting '
-        'in CSS files.',
+    long_description='Fork of `webassets <https://pypi.python.org/pypi/webassets>`_'
+        ' that simply adds PR#283'
+        ' (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_).',
     author='Michael Elsdoerfer',
     author_email='michael@elsdoerfer.com',
     license='BSD',
-    url='http://github.com/miracle2k/webassets/',
+    url='https://github.com/miracle2k/webassets/pull/283',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
