@@ -34,13 +34,12 @@ fp.close()
 
 setup(
     name='webassets2',
-    version='0.10.dev-fork-metagriffin.2',
+    version='0.10.dev-fork-renderer.3',
     description='Media asset management for Python, with glue code for '+\
         'various web frameworks',
     long_description='Fork of `webassets <https://pypi.python.org/pypi/webassets>`_'
         ' that simply adds'
-        ' PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_),'
-        ' and PR#290 (`feature/requirejs <https://github.com/miracle2k/webassets/pull/290>`_).',
+        ' PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_).'
     author='Michael Elsdoerfer',
     author_email='michael@elsdoerfer.com',
     license='BSD',
