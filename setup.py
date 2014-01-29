@@ -39,7 +39,7 @@ setup(
         'various web frameworks',
     long_description='Fork of `webassets <https://pypi.python.org/pypi/webassets>`_'
         ' that simply adds'
-        ' PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_).'
+        ' PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_).',
     author='Michael Elsdoerfer',
     author_email='michael@elsdoerfer.com',
     license='BSD',
