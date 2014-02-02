@@ -34,7 +34,7 @@ fp.close()
 
 setup(
     name='webassets2',
-    version='0.10.dev-fork-renderer.4',
+    version='0.10.dev-fork-renderer.6',
     description='Media asset management for Python, with glue code for '+\
         'various web frameworks',
     long_description='Fork of `webassets <https://pypi.python.org/pypi/webassets>`_'
