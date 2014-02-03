@@ -37,9 +37,13 @@ setup(
     version='0.10.dev-fork-renderer.6',
     description='Media asset management for Python, with glue code for '+\
         'various web frameworks',
-    long_description='Fork of `webassets <https://pypi.python.org/pypi/webassets>`_'
-        ' that simply adds'
-        ' PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_).',
+    long_description='''\
+Fork of `webassets <https://pypi.python.org/pypi/webassets>`_
+with the following differences:
+
+* PR#283 (`feature/renderer <https://github.com/miracle2k/webassets/pull/283>`_)
+* PR#293 (`feature/conditional-yaml <https://github.com/miracle2k/webassets/pull/293>`_)
+''',
     author='Michael Elsdoerfer',
     author_email='michael@elsdoerfer.com',
     license='BSD',
