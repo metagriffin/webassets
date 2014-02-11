@@ -498,9 +498,9 @@ class ExternalTool(six.with_metaclass(ExternalToolMetaclass, Filter)):
             if proc.returncode:
                 raise FilterError(
                     '%s: subprocess returned a non-success result code: '
-                    '%s, stdout=%s, stderr=%s' % (
-                        cls.name or cls.__name__, 
-                        proc.returncode, stdout, stderr))
+                    '%s, command=%r, cwd=%s, stdout=%s, stderr=%s' % (
+                        cls.name or cls.__name__,
+                        proc.returncode, argv, os.getcwd(), stdout, stderr))
             else:
                 if output_file.created:
                     with open(output_file.filename, 'rb') as f:
